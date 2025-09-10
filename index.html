@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>봄</title>
     <style>
-        body {margin: auto;}
-        #layout {max-width:1200px; border: 1px solid red; margin:auto;}
+        body {margin: auto; display: block;}
+        #layout {max-width:1200px; border: 1px solid red; margin:auto; position: relative;}
         #layout img{width: 100%; display: block;}
+        #layout img[alt="나비"]{position: absolute; top: 60%; width: 10%; right:15%;}
     </style>
 </head>
 <body>
-    <div id="layout">
-        <a href="여름.html"> <img src="images/spring.jpg" alt="봄"> </a>
+    <div id="layout">   
+        <img src="images/spring.jpg" alt="봄">
+        <a href="여름.html"><img src="images/blue_fly.png" alt="나비"></a>
 
     </div>
 </body>
